@@ -78,4 +78,4 @@ poista tiedosto $ sudo rm /var/www/html/info.php
 
 Seuraavaksi asennetaan [Wordpress](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7)
 
-Test
+FFMPEGIN asennus https://gist.github.com/mustafaturan/7053900 (toimivuus testaamatta)
