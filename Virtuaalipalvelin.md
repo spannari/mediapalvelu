@@ -81,6 +81,6 @@ poista testitiedosto turvallisuussyistä ```$ sudo rm /var/www/html/info.php```
 
 **Kokeile itse**
 
-Seuraavaksi asennetaan [Wordpress](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7)
+Asenna [Wordpress](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7) ja ota sivusto käyttöön
 
 FFMPEGIN asennus https://gist.github.com/mustafaturan/7053900 (toimivuus testaamatta)
