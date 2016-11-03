@@ -62,6 +62,9 @@ Aseta uusi pääkäyttäjä-salasana tietokantapalvelulle. Älä käytä samaa k
 13. Asennetaan nano:  
 ```$ sudo yum install nano```
 
+14. Asennetaan wget:  
+```$ sudo yum install wget```
+
 14. Tehdään testiskripti php:lle: 
   ```$ sudo nano /var/www/html/info.php```
   Kirjoita seuraava rivi editoriin ja tallenna
