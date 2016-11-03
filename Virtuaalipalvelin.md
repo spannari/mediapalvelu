@@ -72,7 +72,7 @@ Aseta uusi pääkäyttäjä-salasana tietokantapalvelulle. Älä käytä samaa k
 sudo firewall-cmd --permanent --zone=public --add-service=https
 sudo firewall-cmd --reload```
 
-testaa toiminta http://your_server_IP_address/info.php
+testaa toiminta selaimella ```http://your_server_IP_address/info.php```
 
 poista testitiedosto turvallisuussyistä ```$ sudo rm /var/www/html/info.php```
 
