@@ -74,7 +74,7 @@ sudo firewall-cmd --reload```
 
 testaa toiminta http://your_server_IP_address/info.php
 
-poista tiedosto $ sudo rm /var/www/html/info.php
+poista testitiedosto turvallisuussyistä ```$ sudo rm /var/www/html/info.php```
 
 Seuraavaksi asennetaan [Wordpress](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7)
 
