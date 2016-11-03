@@ -56,19 +56,26 @@ Aseta uusi pääkäyttäjä-salasana tietokantapalvelulle. Älä käytä samaa k
 11. Asennetaan php ja php-mysql: 
 ```$ sudo yum install php php-mysql```
 
-12. Lisää Apache bootissa käynnistettäviin sovelluksiin: 
-```$ sudo systemctl enable httpd```
+12. Käynnistetään Apache uudestaan: 
+```$ sudo systemctl restart httpd.service```
 
-13. Lisää Apache bootissa käynnistettäviin sovelluksiin: 
-```$ sudo systemctl enable httpd```
+13. Asennetaan nano:  
+```$ sudo yum install nano```
 
-13. Lisää Apache bootissa käynnistettäviin sovelluksiin: 
-```$ sudo systemctl enable httpd```
+14. Tehdään testiskripti php:lle: 
+  ```$ sudo nano /var/www/html/info.php```
+  Kirjoita seuraava rivi editoriin ja tallenna
+  ```<?php phpinfo(); ?>```
 
-13. Lisää Apache bootissa käynnistettäviin sovelluksiin: 
-```$ sudo systemctl enable httpd```
+15. Puhkaistaan sopivat reiät palomuuriin: 
+```sudo firewall-cmd --permanent --zone=public --add-service=http 
+sudo firewall-cmd --permanent --zone=public --add-service=https
+sudo firewall-cmd --reload```
 
-13. Lisää Apache bootissa käynnistettäviin sovelluksiin: 
-```$ sudo systemctl enable httpd```
+testaa toiminta http://your_server_IP_address/info.php
 
+poista tiedosto $ sudo rm /var/www/html/info.php
 
+Seuraavaksi asennetaan [Wordpress](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7)
+
+Test
