@@ -29,8 +29,8 @@
 ```$ sudo yum -y install httpd```
 
 4. Aukaistaan HTTP ja HTTPS -portit palomuurista: 
-```$ sudo firewall-cmd --permanent --add-port=80/tcpl```
-```$ sudo firewall-cmd --permanent --add-port=443/tcpl```
+```$ sudo firewall-cmd --permanent --add-port=80/tcp```
+```$ sudo firewall-cmd --permanent --add-port=443/tcp```
 lataa palomuuri uusiksi
 ```sudo firewall-cmd --reload```
 
@@ -47,7 +47,7 @@ lataa palomuuri uusiksi
 ```$ sudo systemctl start mariadb```
 
 9. Seuraavaksi tehdään tietokannasta turvallisempi: 
-```$ ssudo mysql_secure_installation```
+```$ sudo mysql_secure_installation```
 Aseta uusi pääkäyttäjä-salasana tietokantapalvelulle. Älä käytä samaa kuin kahdessa aikaisemmassa tapauksessa. Vastaa muihin kysymyksiin ENTER-painalluksella.
 
 10. Lisää MySQL bootissa käynnistettäviin sovelluksiin: 
