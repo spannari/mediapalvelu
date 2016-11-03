@@ -69,7 +69,9 @@ Aseta uusi pääkäyttäjä-salasana tietokantapalvelulle. Älä käytä samaa k
 
 15. Puhkaistaan sopivat reiät palomuuriin: 
 ```sudo firewall-cmd --permanent --zone=public --add-service=http 
+
 sudo firewall-cmd --permanent --zone=public --add-service=https
+
 sudo firewall-cmd --reload```
 
 testaa toiminta selaimella ```http://your_server_IP_address/info.php```
