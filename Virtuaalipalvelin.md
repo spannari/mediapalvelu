@@ -70,12 +70,12 @@ Aseta uusi pääkäyttäjä-salasana tietokantapalvelulle. Älä käytä samaa k
   Kirjoita seuraava rivi editoriin ja tallenna
   ```<?php phpinfo(); ?>```
 
-testaa toiminta selaimella ```http://your_server_IP_address/info.php```
+Testaa toiminta selaimella ```http://your_server_IP_address/info.php```
 
-poista testitiedosto turvallisuussyistä ```$ sudo rm /var/www/html/info.php```
+Poista testitiedosto turvallisuussyistä ```$ sudo rm /var/www/html/info.php```
 
 **Kokeile itse**
 
 Asenna [Wordpress](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-7) ja ota sivusto käyttöön
 
-FFMPEGIN asennus https://gist.github.com/mustafaturan/7053900 (toimivuus testaamatta)
+FFMPEGIN asennus https://gist.github.com/mustafaturan/7053900 (toimii)
